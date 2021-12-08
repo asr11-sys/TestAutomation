@@ -1,0 +1,21 @@
+package com.deloitte.tests; 
+ 
+ 
+/**
+* This class is called SomeClass.
+*/
+public class SomeClass { 
+ 
+/**
+*   This method is used to provide some value for some caluclations.
+*/
+    public boolean foo(int number){ 
+          
+        for(int i=2; i<=number/2; i++){ 
+            if(number % i == 0){ 
+                return Boolean.FALSE; 
+            } 
+        }
+        return true;
+    }
+}
